@@ -1,0 +1,41 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+header h1{
+    background-color: blue;
+    padding: 10px;
+    margin:0;
+}
+
+.container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 9fr;
+}
+
+.red{
+    background-color: darkslategray;
+    margin-right: 0;
+}
+
+.blue{
+    background-color: darkgray;
+}
+
+.menu{
+    position: fixed;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+svg{
+    color: white;
+}
+
+.container.collapsed {
+    grid-template-columns: 0 1fr;
+}
