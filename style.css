@@ -18,6 +18,11 @@ header h1{
 .red{
     background-color: darkslategray;
     margin-right: 0;
+    align-content: center;
+}
+
+.red ul{
+    list-style: none;
 }
 
 .blue{
